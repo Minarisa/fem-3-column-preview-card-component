@@ -32,7 +32,6 @@ body {
 }
 
 ul {
-    /* min-width: min-content; */
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -148,6 +147,39 @@ button:focus::after {
     border: 2px solid var(--third-card-color);
 }
 
+
+.attribution {
+    color: var(--third-card-color);
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: -70px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--second-card-color);
+    border: 1px solid var(--second-card-color);
+    border-radius: 3px;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+}
+
+.attribution a:hover {
+    background-color: var(--second-card-color);
+    color:var(--primary-color);
+}
+
+.attribution a:visited {
+    color: var(--first-card-color);
+    border: 1px solid var(--first-card-color);
+}
+
+.attribution a:visited:hover {
+    background-color: var(--first-card-color);
+    color:var(--primary-color);
+}
 
 /* Media */
 @media(min-width: 600px) {
