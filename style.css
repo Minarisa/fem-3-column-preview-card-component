@@ -159,12 +159,12 @@ button:focus::after {
     border: 2px solid var(--third-card-color);
 }
 
-.attribution {
+footer {
     color: var(--third-card-color);
     font-size: 0.8rem;
 }
 
-.attribution a {
+footer a {
     text-decoration: none;
     color: var(--second-card-color);
     border: 1px solid var(--second-card-color);
@@ -175,21 +175,21 @@ button:focus::after {
     padding-right: 0.15rem;
 }
 
-.attribution a:active {
+footer a:active {
     outline-width: medium;
 }
 
-.attribution a:hover {
+footer a:hover {
     background-color: var(--second-card-color);
     color:var(--primary-color);
 }
 
-.attribution a:visited {
+footer a:visited {
     color: var(--first-card-color);
     border: 1px solid var(--first-card-color);
 }
 
-.attribution a:visited:hover {
+footer a:visited:hover {
     background-color: var(--first-card-color);
     color:var(--primary-color);
 }
